@@ -6,8 +6,6 @@ import java.sql.PreparedStatement;
 import javax.swing.JFileChooser;
 import javax.swing.JOptionPane;
 
-import com.mysql.cj.protocol.PacketSentTimeHolder;
-
 public class insert_large_image {
     public static void main(String[] args) {
         try {
