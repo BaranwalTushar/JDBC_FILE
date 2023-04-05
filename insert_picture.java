@@ -13,7 +13,7 @@ public class insert_picture {
             String q = "insert into images(pic) values(?)";
             PreparedStatement pstmt = con.prepareStatement(q);
 
-            FileInputStream fis = new FileInputStream("C:\\Users\\tushar baranwal\\Desktop\\Name-Tushar Baranwal,Enrollment No-12022006015011,Passport.jpg");
+            FileInputStream fis = new FileInputStream("C:\\Users\\tushar baranwal\\Desktop\\TUSHAR.jpg");
             pstmt.setBinaryStream(1, fis,fis.available());
             pstmt.executeUpdate();
             System.out.println("images inserted...");
